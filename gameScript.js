@@ -148,7 +148,7 @@ const sifirla = () => {
     h1.style.display='none'
     panel.style.display='flex'
     h2.innerText='Puanın: '+geciciPuan
-    if (geciciPuan>=1) {
+    if (geciciPuan>=15) {
         h3.innerText='Bihteri Kurtardın ve Artık sonsuza kadar behlül ile dans edecekler'
         document.body.style.backgroundColor='pink'
         panel.style.backgroundColor="white"
